@@ -1,0 +1,219 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 29.11.2016 21:59:44
+
+newmtl Standard_8
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\vehicle texture-00.psd
+	map_Kd maps\vehicle texture-00.psd
+
+newmtl vray_body_RangeRover
+	Ns 56.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.4941 0.2196 0.0196
+	Kd 0.4941 0.2196 0.0196
+	Ks 0.9270 0.9270 0.9270
+	Ke 0.0000 0.0000 0.0000
+	map_refl maps\Map__12_Falloff.tga
+
+newmtl vray_black
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.0000 0.0000 0.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl vray_chrome_Mercedes_R_Class
+	Ns 45.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5608 0.5608 0.5608
+	Kd 0.5608 0.5608 0.5608
+	Ks 1.9170 1.9170 1.9170
+	Ke 0.0000 0.0000 0.0000
+	map_refl maps\Map__15_Raytrace.tga
+
+newmtl vray_glaslght
+	Ns 50.0000
+	Ni 1.5000
+	d 0.1000
+	Tr 0.9000
+	Tf 0.1000 0.1000 0.1000 
+	illum 2
+	Ka 0.0431 0.0431 0.0431
+	Kd 0.0431 0.0431 0.0431
+	Ks 0.8370 0.8370 0.8370
+	Ke 0.0000 0.0000 0.0000
+	map_refl maps\Map__12_Falloff.tga
+
+newmtl range_logo_RangeRover
+	Ns 49.3242
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.6667 0.6667 0.6667
+	Ks 0.2775 0.2775 0.2775
+	Ke 0.0000 0.0000 0.0000
+
+newmtl vray_turnlght_RangeRover
+	Ns 50.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5294 0.3451 0.0824
+	Kd 0.5294 0.3451 0.0824
+	Ks 0.8370 0.8370 0.8370
+	Ke 0.0000 0.0000 0.0000
+	map_refl maps\Map__12_Falloff.tga
+
+newmtl vray_backlght02_RangeRover
+	Ns 50.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 0.8980 0.6902
+	Kd 1.0000 0.8980 0.6902
+	Ks 0.8370 0.8370 0.8370
+	Ke 0.0000 0.0000 0.0000
+	map_refl maps\Map__12_Falloff.tga
+
+newmtl range_grid_side_RangeRover
+	Ns 67.9549
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.4039 0.4039 0.4039
+	Ks 0.2425 0.2425 0.2425
+	Ke 0.0000 0.0000 0.0000
+
+newmtl vray_rearlght_RangeRover
+	Ns 50.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.4078 0.0863 0.0863
+	Kd 0.4078 0.0863 0.0863
+	Ks 0.8370 0.8370 0.8370
+	Ke 0.0000 0.0000 0.0000
+	map_refl maps\Map__12_Falloff.tga
+
+newmtl vray_glassblk2
+	Ns 50.0000
+	Ni 1.5000
+	d 0.6000
+	Tr 0.4000
+	Tf 0.6000 0.6000 0.6000 
+	illum 2
+	Ka 0.0078 0.0118 0.0078
+	Kd 0.0078 0.0118 0.0078
+	Ks 0.8370 0.8370 0.8370
+	Ke 0.0000 0.0000 0.0000
+	map_refl maps\Map__12_Falloff.tga
+
+newmtl vray_glass_front
+	Ns 50.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0314 0.0431 0.0392
+	Kd 0.0314 0.0431 0.0392
+	Ks 0.8370 0.8370 0.8370
+	Ke 0.0000 0.0000 0.0000
+	map_refl maps\Map__12_Falloff.tga
+
+newmtl vray_glass
+	Ns 50.0000
+	Ni 1.5000
+	d 0.8000
+	Tr 0.2000
+	Tf 0.8000 0.8000 0.8000 
+	illum 2
+	Ka 0.0314 0.0431 0.0392
+	Kd 0.0314 0.0431 0.0392
+	Ks 0.8370 0.8370 0.8370
+	Ke 0.0000 0.0000 0.0000
+	map_refl maps\Map__12_Falloff.tga
+
+newmtl vray_mirror
+	Ns 36.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0980 0.0980 0.0980
+	Kd 0.0980 0.0980 0.0980
+	Ks 1.2060 1.2060 1.2060
+	Ke 0.0000 0.0000 0.0000
+	map_refl maps\Map__18_Raytrace.tga
+
+newmtl vray_plastic02_RangeRover
+	Ns 11.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.3255 0.3294 0.3373
+	Kd 0.3255 0.3294 0.3373
+	Ks 0.4050 0.4050 0.4050
+	Ke 0.0000 0.0000 0.0000
+
+newmtl vray_plastic_RangeRover
+	Ns 21.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.1176 0.1176 0.1176
+	Kd 0.1176 0.1176 0.1176
+	Ks 0.3060 0.3060 0.3060
+	Ke 0.0000 0.0000 0.0000
+
+newmtl range_carbon_RangeRover
+	Ns 21.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.4549 0.4549 0.4549
+	Ks 0.5200 0.5200 0.5200
+	Ke 0.0000 0.0000 0.0000
+	map_refl maps\Map__24_Falloff.tga
